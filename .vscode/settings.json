@@ -1,0 +1,7 @@
+{
+  "beautify.config": "",
+  "[liquid]": {
+    "editor.defaultFormatter": "sissel.shopify-liquid",
+    "editor.formatOnSave": true
+  }
+}
