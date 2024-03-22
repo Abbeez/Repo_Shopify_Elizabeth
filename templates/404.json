@@ -1,4 +1,4 @@
-{
+/* {
     "name": "Template 404",
     "layout": "custom_theme",
     "wrapper":"div#404_template.custom-class[custom-attribute=hello]",
@@ -9,3 +9,16 @@
     },
     "order": ["template-404"]
 }
+*/
+
+
+{
+    "name": "Template 404",
+    "sections": {
+        "template":{
+            "type": "template-404"
+        }
+    },
+    "order": ["template"]
+}
+
