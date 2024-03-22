@@ -1,0 +1,39 @@
+<div class="flex items-center justify-cente max-w-md h-screen">
+  <div class="404-container">
+    <div class="text-5xl font-bold my-4">{{ section.settings.title }}</div>
+    <div class="my-4">
+      <div class="text-base md:text-xl leading-normal">{{ section.settings.subtext_title }}</div>
+    </div>
+    <div class="my-4">
+      <a href="{{ shop.url }}">{{ section.settings.button_label }}</a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Template 404",
+    "tag": "section",
+    "class": "flex items-center justify-center text-center py-7 h-screen w-screen",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "404",
+        "label": "404 Heading Title"
+      },
+      {
+        "type": "text",
+        "id": "subtext_title",
+        "default": "The page that are you looking for is not found",
+        "label": "404 Subtext Title"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "default": "Back to Home Page",
+        "label": "404 Button"
+      }
+    ]
+  }
+{% endschema %}
